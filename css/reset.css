@@ -1,0 +1,25 @@
+:root {
+    /* <--!--- CONFIGURAÇÕES DE FONTES ---!--> */
+    --font-nunito-fina-n1: 400 0.5rem Nunito;
+    --font-nunito-normal-n1: 600 0.5rem Nunito;
+    --font-nunito-bold-n1: 800 0.5rem Nunito;
+
+    --font-nunito-fina-n2: 400 0.75rem Nunito;
+    --font-nunito-normal-n2: 600 0.75rem Nunito;
+    --font-nunito-bold-n2: 800 0.75rem Nunito;
+
+    --font-nunito-fina-n3: 400 1rem Nunito;
+    --font-nunito-normal-n3: 600 1rem Nunito;
+    --font-nunito-bold-n3: 800 1rem Nunito;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}

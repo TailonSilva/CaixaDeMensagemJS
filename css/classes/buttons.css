@@ -1,0 +1,100 @@
+.barra {
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 15px;
+}
+
+.icone {
+    width: 14px;
+}
+
+.alerta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #e92222;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sucesso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #26b819;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.excluir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #202020;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #c4b700;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #1a1b63;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #004042;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.config {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #411400;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px;
+    cursor: pointer;
+}

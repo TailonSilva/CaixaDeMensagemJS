@@ -1,0 +1,145 @@
+.janelaMensagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.boxJanelaMensagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    animation: aparecer 0.7s;
+}
+
+@keyframes aparecer {
+    from {
+        transform: translate3d(-50px,0,0);
+        opacity: 0;
+      }
+    
+      to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+}
+
+.boxTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.boxMensagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ddd;
+    font: var(--font-nunito-normal-n3);
+    padding: 15px 5px;
+    text-align: center;
+}
+
+.boxRodape {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
+    background-color: #ddd;
+}
+
+.mensagemAlerta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #e92222;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px 5px 0 0 ;
+}
+
+.mensagemSucesso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #26b819;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px 5px 0 0 ;
+}
+
+.mensagemExcluir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #202020;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px 5px 0 0 ;
+}
+
+.mensagemInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #c4b700;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px 5px 0 0 ;
+}
+
+.mensagemEnviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1a1b63;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px 5px 0 0 ;
+}
+
+.mensagemPesquisar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #004042;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px 5px 0 0 ;
+}
+
+.mensagemConfig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #411400;
+    padding: 5px;
+    color: #ffffff;
+    font: var(--font-nunito-fina-n2);
+    border-radius: 5px 5px 0 0 ;
+}
