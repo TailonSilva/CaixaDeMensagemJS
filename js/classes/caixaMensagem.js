@@ -9,6 +9,8 @@ class CaixaMensagem {
         this.boxTitulo = document.createElement('div')
         this.boxMensagem = document.createElement('div')
         this.boxRodape = document.createElement('div')
+
+        this.classes = ['mensagemAlerta', 'mensagemSucesso', 'mensagemExcluir' , 'mensagemInfo', 'mensagemEnviar', 'mensagemPesquisar', 'mensagemConfig']
     }
 
     mostar=(tipo, titulo, mensagem)=> {
@@ -32,7 +34,9 @@ class CaixaMensagem {
         this.boxJanelaMensagem.appendChild(this.boxRodape)
 
     
-        
+        this.classes.forEach(item => {
+            this.boxTitulo.classList.remove(item)
+        });
    
         if(tipo == 'alerta') {
             this.boxTitulo.classList.add('mensagemAlerta')
